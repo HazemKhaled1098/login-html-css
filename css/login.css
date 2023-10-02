@@ -1,0 +1,109 @@
+* {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+body {
+    background-image: url(../imgs/background.jpg);
+    text-align: center;
+    padding: 150px 550px;
+}
+.content {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    border: 3px solid #eeeeee94;
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.content .top {
+    margin-top: 20px;
+    font-size: 25px;
+}
+.container .content .data .username {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border: 2px solid;
+    box-shadow:  rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 20px;
+    height: 50px;
+    border-color: #eeeeeeaa;
+    margin: 20px 30px;
+}
+.container .content .data .username input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.container .content .data .username input::placeholder {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+.container .content .data .pass {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border: 2px solid ;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    height: 50px;
+    border-color: #eeeeeeaa;
+    margin: 20px 30px 0;
+}
+.container .content .data .pass input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.container .content .data .pass input::placeholder {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+.container .content .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+}
+.container .content .login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+    width: auto;
+    height: 40px;
+    margin: 0 30px;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    box-shadow:rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.container .content .footer {
+    font-size: 14px;
+}
+.container .content .footer span {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+@media (max-width: 767px) {
+    .body {
+        width: fit-content;
+        height: fit-content;
+    }
+}
